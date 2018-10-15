@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create User</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form id="user-create-form" action="./api/user" method="post">
+        Full name:
+        <br>
+        <input type="text" placeholder="Joe Momma" id="fullName">
+        <br>
+        Email:
+        <br>
+        <input type="text" placeholder="JoeMomma@gmail.com" id="email">
+        <br>
+        Username:
+        <br>
+        <input type="text" placeholder="JoeGoHome12" id="username">
+        <br>
+        Password:
+        <br>
+        <input type="text" placeholder="MommaJoe" id="password">
+        <br>
+        <br>
+        <button type="submit">Create User</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
